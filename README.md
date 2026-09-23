@@ -4,7 +4,7 @@
 
 ## Live app
 
-**[Add your live Streamlit Community Cloud URL here once deployed]**
+https://optimized-breast-cancer-app.streamlit.app/
 
 ## Overview
 
