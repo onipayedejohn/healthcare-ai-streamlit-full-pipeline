@@ -1,0 +1,79 @@
+{
+  "features": [
+    "mean radius",
+    "mean texture",
+    "mean perimeter",
+    "mean area",
+    "mean smoothness",
+    "mean compactness",
+    "mean concavity",
+    "mean concave points"
+  ],
+  "target_names": [
+    "Benign",
+    "Malignant"
+  ],
+  "model_name": "SVM (RBF kernel)",
+  "threshold": 0.5,
+  "n_samples": 569,
+  "n_positive": 212,
+  "metrics": {
+    "accuracy": 0.9649122807017544,
+    "precision": 0.9523809523809523,
+    "recall": 0.9523809523809523,
+    "f1": 0.9523809523809523,
+    "roc_auc": 0.9867724867724867
+  },
+  "importance": {
+    "mean radius": 0.011541005291005246,
+    "mean texture": 0.033697089947089955,
+    "mean perimeter": 0.010052910052910036,
+    "mean area": 0.01259920634920636,
+    "mean smoothness": 0.01144179894179893,
+    "mean compactness": -0.0001984126984127421,
+    "mean concavity": 0.022189153439153408,
+    "mean concave points": 0.028538359788359745
+  },
+  "feature_ranges": {
+    "mean radius": [
+      6.981,
+      28.11,
+      13.37
+    ],
+    "mean texture": [
+      9.71,
+      39.28,
+      18.84
+    ],
+    "mean perimeter": [
+      43.79,
+      188.5,
+      86.24
+    ],
+    "mean area": [
+      143.5,
+      2501.0,
+      551.1
+    ],
+    "mean smoothness": [
+      0.05263,
+      0.1634,
+      0.09587
+    ],
+    "mean compactness": [
+      0.01938,
+      0.3454,
+      0.09263
+    ],
+    "mean concavity": [
+      0.0,
+      0.4268,
+      0.06154
+    ],
+    "mean concave points": [
+      0.0,
+      0.2012,
+      0.0335
+    ]
+  }
+}
