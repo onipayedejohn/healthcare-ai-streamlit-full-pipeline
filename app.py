@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 
 st.set_page_config(page_title="Breast Mass Screening Assistant",
-                   page_icon="🩺", layout="wide")
+                   page_icon="🩺", layout="wide", initial_sidebar_state="collapsed")
 
 # ----------------------------------------------------------------------
 # 1. Load artifacts once per session
